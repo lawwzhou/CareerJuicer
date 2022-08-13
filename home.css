@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url('./Merriweather/Merriweather-Black.ttf');
+}
+
 html {
     background-color: peachpuff;
 }
@@ -5,5 +10,5 @@ html {
 .text {
     border: 2px solid black;
     text-align: center;
-    font-family: 
+    font-family: "Merriweather";
 }
