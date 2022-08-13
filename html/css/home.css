@@ -5,13 +5,19 @@
     src: url('./Overpass/static/Overpass-Bold.ttf');
 }
 
-html {
-    background-color: peachpuff;
+html,#thing,#quote {
+    background: url(building.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #person {
     color: blueviolet;
 }
+
 .nav-bar{
+    display:flex;
     justify-content: end;
 }
 a:link[class = "nav-header"], a:visited[class = "nav-header"] {
@@ -45,6 +51,11 @@ a:hover[class = "nav-header"] {
     bottom: 75px;
 }
 .logo {
-    justify-content: start !important;
+    width:80px;
+    height:80px;
+    margin-left: 7%;
+}
+.logo-name {
     margin-right: auto;
+    margin-left: 0%;
 }
