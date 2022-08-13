@@ -10,7 +10,10 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
     font-family: "Overpass-LightItalic";
     src: url('fonts/Overpass/static/Overpass-LightItalic.ttf');
 }
-
+html {
+    height: 150%;
+    scroll-behavior: smooth;
+}
 html,#thing,#quote {
     background: url(building.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -25,11 +28,12 @@ html,#thing,#quote {
 }
 
 .nav-bar{
+    background-color:black;
     display:flex;
-    justify-content: end;
-}
+    position: sticky;
+    }
 a:link[class = "nav-header"], a:visited[class = "nav-header"] {
-    color: black;
+    color: white;
     padding: 25px;
     text-align: center;
     display: inline-block;  
@@ -52,10 +56,9 @@ a:hover[class = "nav-header"] {
 .header {
     text-align: left;
     font-family: "Overpass";
-    position: fixed;
-    left: 135px;
-    bottom: 50px;
+    position: flex;
     line-height: normal;
+    padding-top:25%;
 }
 
 .Title{
@@ -77,11 +80,12 @@ a:hover[class = "nav-header"] {
 }
 
 .logo {
-    width:80px;
-    height:80px;
+    width:77px;
+    height:77px;
+    margin-top: 1px;
     margin-left: 7%;
 }
 .logo-name {
     margin-right: auto;
-    margin-left: 0%;
+    margin-left: 1%;
 }
