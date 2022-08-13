@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url('./Merriweather/Merriweather-Light.ttf');
+}
+
+html {
+    background-color: peachpuff;
+}
+
+.text {
+    border: 2px solid black;
+    text-align: center;
+    font-family: "Merriweather";
+}
+.nav-bar{
+    justify-content: end;
+}
+a:link[class = "nav-header"], a:visited[class = "nav-header"] {
+    padding-left:100px;
+    color: black;
+    padding: 30px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size:1.7vmin;
+    font-family: "Merriweather";
+    transition: all 0.3s ease;
+}
+a:hover[class = "nav-header"] {
+    transform: scale(1.2);
+  }
