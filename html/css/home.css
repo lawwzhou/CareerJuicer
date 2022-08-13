@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url('./Merriweather/Merriweather-Light.ttf');
+    font-family: "Overpass-LightItalic";
+    src: url('./Overpass/static/Overpass-LightItalic.ttf');
+}
+@font-face {
+font-family: "Overpass";
+src: url('Overpass/static/Overpass-Medium.ttf');
+}
+
+html,#thing,#quote {
+    background: url(building.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#person {
+    color: blueviolet;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: end;
+}
+a:link[class = "nav-header"], a:visited[class = "nav-header"] {
+    color: black;
+    padding: 25px;
+    text-align: center;
+    display: inline-block;  
+    font-size:2vmin;
+    font-family: "Merriweather";
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+a:hover[class = "nav-header"] {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+.text {
+    border: 2px solid black;
+    text-align: left;
+    font-family: "Merriweather";
+    font-size: 32px;
+}
+
+.header {
+    border: 2px solid black;
+    text-align: left;
+    font-family: "Overpass";
+    position: fixed;
+    left: 135px;
+    bottom: 50px;
+    line-height: normal;
+}
+
+.Title{
+    font-size: 60px;
+    color:rgb(228, 213, 207);
+}
+
+.Title2{
+    font-size: 60px;
+    color:rgb(228, 213, 207);
+}
+
+.Title3{
+    font-size: 60px;
+    color:coral;
+}
+
+.Intro{
+    font-family: "Overpass-LightItalic";
+    font-size: 20px; 
+    color:rgb(228, 213, 207);
+}
+
+.Intro2{
+    font-family: "Overpass-LightItalic";
+    font-size: 20px;
+    color:rgb(235, 227, 160);
+}
+
+.logo {
+    width:80px;
+    height:80px;
+    margin-left: 7%;
+}
+.logo-name {
+    margin-right: auto;
+    margin-left: 0%;
+}
