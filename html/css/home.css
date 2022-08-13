@@ -1,12 +1,16 @@
 @font-face {
     font-family: "Merriweather";
     src: url('./Merriweather/Merriweather-Light.ttf');
-    font-family: "Overpass-LightItalic";
-    src: url('./Overpass/static/Overpass-LightItalic.ttf');
 }
+
 @font-face {
 font-family: "Overpass";
 src: url('Overpass/static/Overpass-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Overpass-LightItalic";
+    src: url('./Overpass/static/Overpass-LightItalic.ttf');
 }
 
 html,#thing,#quote {
@@ -46,7 +50,6 @@ a:hover[class = "nav-header"] {
 }
 
 .header {
-    border: 2px solid black;
     text-align: left;
     font-family: "Overpass";
     position: fixed;
@@ -55,12 +58,7 @@ a:hover[class = "nav-header"] {
     line-height: normal;
 }
 
-.Title{
-    font-size: 60px;
-    color:rgb(228, 213, 207);
-}
-
-.Title2{
+.Title, .Title2{
     font-size: 60px;
     color:rgb(228, 213, 207);
 }
@@ -77,7 +75,6 @@ a:hover[class = "nav-header"] {
 }
 
 .Intro2{
-    font-family: "Overpass-LightItalic";
     font-size: 20px;
     color:rgb(235, 227, 160);
 }
