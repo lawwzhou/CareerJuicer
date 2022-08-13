@@ -1,16 +1,15 @@
 @font-face {
     font-family: "Merriweather";
     src: url('./Merriweather/Merriweather-Light.ttf');
+    font-family: "Overpass";
+    src: url('./Overpass/static/Overpass-Bold.ttf');
 }
 
 html {
     background-color: peachpuff;
 }
-
-.text {
-    border: 2px solid black;
-    text-align: center;
-    font-family: "Merriweather";
+#person {
+    color: blueviolet;
 }
 .nav-bar{
     justify-content: end;
@@ -28,3 +27,19 @@ a:link[class = "nav-header"], a:visited[class = "nav-header"] {
 a:hover[class = "nav-header"] {
     transform: scale(1.2);
   }
+  .text {
+    border: 2px solid black;
+    text-align: left;
+    font-family: "Merriweather";
+    font-size: 32px;
+}
+
+.header {
+    border: 2px solid black;
+    text-align: left;
+    font-family: "Overpass";
+    font-size: 200px;
+    position: fixed;
+    left: 150px;
+    bottom: 75px;
+}
