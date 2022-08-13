@@ -11,10 +11,10 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
     src: url('fonts/Overpass/static/Overpass-LightItalic.ttf');
 }
 html {
-    height: 150%;
+    height: 300%;
     scroll-behavior: smooth;
 }
-html,#thing,#quote {
+html,#thing,#quote,.nav-bar{
     background: url(building.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -23,14 +23,11 @@ html,#thing,#quote {
   padding-left: 0%;
   padding-right: 0%;
 }
-#person {
-    color: blueviolet;
-}
-
 .nav-bar{
-    background-color:black;
+    margin-top:2%;
     display:flex;
-    position: sticky;
+    z-index: 2;
+    width:100%;
     }
 a:link[class = "nav-header"], a:visited[class = "nav-header"] {
     color: white;
