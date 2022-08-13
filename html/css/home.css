@@ -21,14 +21,17 @@ html,#thing,#quote,.nav-bar{
   -o-background-size: cover;
   background-size: cover;
   padding-left: 0%;
-  padding-right: 0%;
+  padding-right: 0%;    
+  font-size: 35px;
+  color:rgb(213, 224, 226);
 }
+
 .nav-bar{
     padding-top:2%;
     display:flex;
-    width:100%;
-    position: fixed;
     z-index: 1;
+    width:100%;
+    position:fixed;
     }
 a:link[class = "nav-header"], a:visited[class = "nav-header"] {
     color: white;
@@ -39,6 +42,7 @@ a:link[class = "nav-header"], a:visited[class = "nav-header"] {
     font-family: "Merriweather";
     transition: all 0.3s ease;
     opacity: 0.8;
+    color:rgb(195, 205, 207);
 }
 a:hover[class = "nav-header"] {
     transform: scale(1.2);
@@ -52,9 +56,8 @@ a:hover[class = "nav-header"] {
 }
 
 .header {
-    text-align: left;
     font-family: "Overpass";
-    position: flex;
+    padding-top: 565px;
     line-height: normal;
     padding-top:39%;
 }
@@ -63,7 +66,13 @@ a:hover[class = "nav-header"] {
     font-size: 60px;
     color:rgb(228, 213, 207);
 }
-.Title2 {
+
+.Title2{
+    font-size: 60px;
+    color:rgb(228, 213, 207);
+}
+
+.Title3{
     font-size: 60px;
     color:coral;
 }
@@ -74,6 +83,8 @@ a:hover[class = "nav-header"] {
 }
 
 .Intro2{
+    font-family: "Overpass-LightItalic";
+    font-size: 20px;
     color:rgb(235, 227, 160);
 }
 
