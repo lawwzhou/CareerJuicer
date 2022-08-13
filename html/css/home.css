@@ -15,19 +15,20 @@ html {
     justify-content: end;
 }
 a:link[class = "nav-header"], a:visited[class = "nav-header"] {
-    padding-left:100px;
     color: black;
-    padding: 30px 10px;
+    padding: 25px;
     text-align: center;
-    display: inline-block;
-    font-size:1.7vmin;
+    display: inline-block;  
+    font-size:2vmin;
     font-family: "Merriweather";
     transition: all 0.3s ease;
+    opacity: 0.8;
 }
 a:hover[class = "nav-header"] {
     transform: scale(1.2);
+    opacity: 1;
   }
-  .text {
+.text {
     border: 2px solid black;
     text-align: left;
     font-family: "Merriweather";
@@ -42,4 +43,7 @@ a:hover[class = "nav-header"] {
     position: fixed;
     left: 150px;
     bottom: 75px;
+}
+.logo {
+    justify-content: start !important;
 }
