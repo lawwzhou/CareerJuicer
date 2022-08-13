@@ -1,8 +1,12 @@
 @font-face {
     font-family: "Merriweather";
     src: url('./Merriweather/Merriweather-Light.ttf');
+    font-family: "Overpass-LightItalic";
+    src: url('./Overpass/static/Overpass-LightItalic.ttf');
+}
+@font-face {
     font-family: "Overpass";
-    src: url('./Overpass/static/Overpass-Bold.ttf');
+    src: url('Overpass/static/Overpass-Medium.ttf');
 }
 
 #person {
@@ -24,9 +28,33 @@ html {
     border: 2px solid black;
     text-align: left;
     font-family: "Overpass";
-    font-size: 200px;
     position: fixed;
-    left: 150px;
-    bottom: 75px;
+    left: 135px;
+    bottom: 50px;
+    line-height: normal;
+}
+
+.Title{
+    font-size: 60px;
+}
+
+.Title2{
+    font-size: 60px;
+}
+
+.Title3{
+    font-size: 60px;
+    color:coral
+}
+
+.Intro{
+    font-family: "Overpass-LightItalic";
+    font-size: 20px; 
+}
+
+.Intro2{
+    font-family: "Overpass-LightItalic";
+    font-size: 20px;
+    color:rgb(235, 227, 160)
 }
 
