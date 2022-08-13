@@ -1,6 +1,8 @@
 @font-face {
     font-family: "Merriweather";
     src: url('./Merriweather/Merriweather-Light.ttf');
+    font-family: "Overpass";
+    src: url('./Overpass/static/Overpass-Bold.ttf');
 }
 
 #person {
@@ -17,3 +19,14 @@ html {
     font-family: "Merriweather";
     font-size: 32px;
 }
+
+.header {
+    border: 2px solid black;
+    text-align: left;
+    font-family: "Overpass";
+    font-size: 200px;
+    position: fixed;
+    left: 150px;
+    bottom: 75px;
+}
+
