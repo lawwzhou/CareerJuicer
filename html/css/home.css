@@ -1,12 +1,14 @@
 @font-face {
     font-family: "Merriweather";
-    src: url('./Merriweather/Merriweather-Light.ttf');
-    font-family: "Overpass-LightItalic";
-    src: url('./Overpass/static/Overpass-LightItalic.ttf');
+    src: url('fonts/Merriweather/Merriweather-Light.ttf');
 }
 @font-face {
 font-family: "Overpass";
-src: url('Overpass/static/Overpass-Medium.ttf');
+src: url('fonts/Overpass/static/Overpass-Medium.ttf');
+}
+@font-face {
+    font-family: "Overpass-LightItalic";
+    src: url('fonts/Overpass/static/Overpass-LightItalic.ttf');
 }
 
 html,#thing,#quote {
@@ -15,6 +17,8 @@ html,#thing,#quote {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 #person {
     color: blueviolet;
@@ -39,14 +43,13 @@ a:hover[class = "nav-header"] {
     opacity: 1;
   }
 .text {
-    border: 2px solid black;
     text-align: left;
     font-family: "Merriweather";
     font-size: 32px;
+    padding-left: 0%;
 }
 
 .header {
-    border: 2px solid black;
     text-align: left;
     font-family: "Overpass";
     position: fixed;
@@ -59,17 +62,10 @@ a:hover[class = "nav-header"] {
     font-size: 60px;
     color:rgb(228, 213, 207);
 }
-
-.Title2{
-    font-size: 60px;
-    color:rgb(228, 213, 207);
-}
-
-.Title3{
+.Title2 {
     font-size: 60px;
     color:coral;
 }
-
 .Intro{
     font-family: "Overpass-LightItalic";
     font-size: 20px; 
@@ -77,8 +73,6 @@ a:hover[class = "nav-header"] {
 }
 
 .Intro2{
-    font-family: "Overpass-LightItalic";
-    font-size: 20px;
     color:rgb(235, 227, 160);
 }
 
