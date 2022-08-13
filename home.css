@@ -1,9 +1,19 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url('./Merriweather/Merriweather-Light.ttf');
+}
+
+#person {
+    color: blueviolet;
+}
+
 html {
     background-color: peachpuff;
 }
 
 .text {
     border: 2px solid black;
-    text-align: center;
-    font-family: 
+    text-align: left;
+    font-family: "Merriweather";
+    font-size: 32px;
 }
