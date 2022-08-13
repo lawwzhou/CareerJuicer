@@ -1,16 +1,14 @@
 @font-face {
     font-family: "Merriweather";
-    src: url('./Merriweather/Merriweather-Light.ttf');
+    src: url('fonts/Merriweather/Merriweather-Light.ttf');
 }
-
 @font-face {
 font-family: "Overpass";
-src: url('Overpass/static/Overpass-Medium.ttf');
+src: url('fonts/Overpass/static/Overpass-Medium.ttf');
 }
-
 @font-face {
     font-family: "Overpass-LightItalic";
-    src: url('./Overpass/static/Overpass-LightItalic.ttf');
+    src: url('fonts/Overpass/static/Overpass-LightItalic.ttf');
 }
 
 html,#thing,#quote {
@@ -19,7 +17,12 @@ html,#thing,#quote {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-left: 0%;
+  padding-right: 0%;    
+  font-size: 35px;
+  color:rgb(195, 205, 207);
 }
+
 #person {
     color: blueviolet;
 }
@@ -27,6 +30,7 @@ html,#thing,#quote {
 .nav-bar{
     display:flex;
     justify-content: end;
+    background-color: rgb(10, 9, 9);;
 }
 a:link[class = "nav-header"], a:visited[class = "nav-header"] {
     color: black;
@@ -37,28 +41,34 @@ a:link[class = "nav-header"], a:visited[class = "nav-header"] {
     font-family: "Merriweather";
     transition: all 0.3s ease;
     opacity: 0.8;
+    color:rgb(195, 205, 207);
 }
 a:hover[class = "nav-header"] {
     transform: scale(1.2);
     opacity: 1;
   }
 .text {
-    border: 2px solid black;
     text-align: left;
     font-family: "Merriweather";
     font-size: 32px;
+    padding-left: 0%;
 }
+
 
 .header {
-    text-align: left;
     font-family: "Overpass";
-    position: fixed;
-    left: 135px;
-    bottom: 50px;
+    padding-top: 285px;
+    left: 60px;
     line-height: normal;
+    margin-left: 0;
 }
 
-.Title, .Title2{
+.Title{
+    font-size: 60px;
+    color:rgb(228, 213, 207);
+}
+
+.Title2{
     font-size: 60px;
     color:rgb(228, 213, 207);
 }
@@ -67,7 +77,6 @@ a:hover[class = "nav-header"] {
     font-size: 60px;
     color:coral;
 }
-
 .Intro{
     font-family: "Overpass-LightItalic";
     font-size: 20px; 
@@ -75,6 +84,7 @@ a:hover[class = "nav-header"] {
 }
 
 .Intro2{
+    font-family: "Overpass-LightItalic";
     font-size: 20px;
     color:rgb(235, 227, 160);
 }
