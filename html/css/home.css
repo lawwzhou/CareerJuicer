@@ -46,4 +46,5 @@ a:hover[class = "nav-header"] {
 }
 .logo {
     justify-content: start !important;
+    margin-right: auto;
 }
