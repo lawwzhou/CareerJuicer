@@ -37,7 +37,7 @@ a:hover[class = "nav-header"] {
 .text {
     border: 2px solid black;
     text-align: left;
-    font-family: "Merriweather";
+    font-family: sans;
     font-size: 32px;
 }
 
