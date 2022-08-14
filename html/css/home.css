@@ -10,6 +10,7 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
     font-family: "Overpass-LightItalic";
     src: url('fonts/Overpass/static/Overpass-LightItalic.ttf');
 }
+
 html {
     height: 300%;
     scroll-behavior: smooth;
@@ -57,9 +58,8 @@ a:hover[class = "nav-header"] {
 
 .header {
     font-family: "Overpass";
-    padding-top: 565px;
+    padding-top: 695px;
     line-height: normal;
-    padding-top:39%;
 }
 
 .Title{
@@ -98,3 +98,4 @@ a:hover[class = "nav-header"] {
     margin-right: auto;
     margin-left: 1%;
 }
+
