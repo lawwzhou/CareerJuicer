@@ -15,8 +15,10 @@ html {
     height: 300%;
     scroll-behavior: smooth;
 }
+
+
 html,#thing,#quote,.nav-bar, body{
-  background: url(building.png) no-repeat center center fixed; 
+  background: url(./images/building.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,8 +29,13 @@ html,#thing,#quote,.nav-bar, body{
   color:rgb(213, 224, 226);
 }
 
+#id {
+    right: 15px;
+    bottom: 200px;
+}
 .message {
     position: relative;
+    max-width: 400px;
     left: 19%;
     bottom: 70px;
     font-size: 28px;
@@ -37,9 +44,10 @@ html,#thing,#quote,.nav-bar, body{
 
 .response {
     position: relative;
-    left: 63%;
-    bottom: 340px;
-    font-size: 23px;
+    max-width: 500px;
+    left: 62%;
+    bottom: 323px;
+    font-size: 28px;
     color: white; 
 }
 
@@ -56,6 +64,7 @@ html,#thing,#quote,.nav-bar, body{
 }
 
 .container {
+    max-height: 220px;
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
@@ -64,35 +73,12 @@ html,#thing,#quote,.nav-bar, body{
     margin-top: 5%;
     margin-bottom: 5%;
     max-width: 100%;
-    background: url(building.png) no-repeat center center fixed; 
+    background: url(./images/building.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
-.nav-bar{
-    padding-top:2%;
-    display:flex;
-    z-index: 1;
-    width:100%;
-    position:fixed;
-    }
-a:link[class = "nav-header"], a:visited[class = "nav-header"] {
-    color: white;
-    padding: 25px;
-    text-align: center;
-    display: inline-block;  
-    font-size:2vmin;
-    font-family: "Merriweather";
-    transition: all 0.3s ease;
-    opacity: 0.8;
-    color:rgb(195, 205, 207);
-}
-a:hover[class = "nav-header"] {
-    transform: scale(1.2);
-    opacity: 1;
-  }
 .text {
     text-align: left;
     font-family: sans;
@@ -130,16 +116,5 @@ a:hover[class = "nav-header"] {
     font-family: "Overpass-LightItalic";
     font-size: 20px;
     color:rgb(235, 227, 160);
-}
-
-.logo {
-    width:77px;
-    height:77px;
-    margin-top: 1px;
-    margin-left: 7%;
-}
-.logo-name {
-    margin-right: auto;
-    margin-left: 1%;
 }
 
