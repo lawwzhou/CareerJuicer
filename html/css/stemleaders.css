@@ -116,10 +116,6 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
 }
 
 a:link[class = "nav-header"], a:visited[class = "nav-header"] {
-<<<<<<< HEAD
-    color:rgb(213, 224, 226) !important;
-}
-=======
     padding: 25px;
     text-align: center;
     display: inline-block;  
@@ -141,4 +137,3 @@ a:link[class = "nav-header"], a:visited[class = "nav-header"] {
     opacity: 0.5; 
     filter:(opacity(50));  
     }
->>>>>>> 60d4baf5269beb2bfb3c3d95ed9c06e7992d925b
