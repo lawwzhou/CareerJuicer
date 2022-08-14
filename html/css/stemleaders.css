@@ -46,7 +46,7 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
     margin:0%;  
     width: 200%;
     text-align: center;
-    padding-top: 1%;
+    padding-top: 0%;
     letter-spacing: 5px;
     font-family: "Overpass-bolded"; 
     font-weight: bolder;
@@ -56,11 +56,12 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
 .list2{
     font-size: 24px;
     font-family: "Overpass-LightItalic";
+    padding-bottom: 0%;
 }
 
 .list3{
-    font-size: 150px;
-    padding-top: 1%;
+    font-size: 125px;
+    padding-top: 0%;
     font-family: "Overpass-LightItalic";
 }
 
@@ -134,6 +135,6 @@ a:link[class = "nav-header"], a:visited[class = "nav-header"] {
     padding-left: 0%;
     padding-right: 0%;    
     font-size: 35px;
-    opacity: 0.5; 
+    opacity: 0.7; 
     filter:(opacity(50));  
     }
