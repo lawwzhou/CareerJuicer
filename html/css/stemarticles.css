@@ -20,7 +20,7 @@ html, body{
     z-index: -1;
 }
 html {
-    height: 300%;
+    height: 230%;
     scroll-behavior: smooth;
 }
 
