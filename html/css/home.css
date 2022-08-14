@@ -14,8 +14,8 @@ html {
     height: 300%;
     scroll-behavior: smooth;
 }
-html,#thing,#quote,.nav-bar{
-    background: url(building.png) no-repeat center center fixed; 
+html,#thing,#quote,.nav-bar, body{
+  background: url(building.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,6 +24,50 @@ html,#thing,#quote,.nav-bar{
   padding-right: 0%;    
   font-size: 35px;
   color:rgb(213, 224, 226);
+}
+
+.message {
+    position: relative;
+    left: 19%;
+    bottom: 70px;
+    font-size: 28px;
+    color: black;
+}
+
+.response {
+    position: relative;
+    left: 63%;
+    bottom: 340px;
+    font-size: 23px;
+    color: white; 
+}
+
+.bubble {
+    position: relative;
+    left: 15%;
+    top: 20%;
+}
+
+.rightbubble {
+    position: relative;
+    left: 60%;
+    bottom: 75px;
+}
+
+.container {
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 100%;
+    background: url(building.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .nav-bar{
@@ -57,9 +101,8 @@ a:hover[class = "nav-header"] {
 
 .header {
     font-family: "Overpass";
-    padding-top: 565px;
+    padding-top: 695px;
     line-height: normal;
-    padding-top:39%;
 }
 
 .Title{
