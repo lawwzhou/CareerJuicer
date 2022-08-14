@@ -82,12 +82,12 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
 .bill, .Marky, .Stevey{
     width: 350px;
     border-radius: 85%;
-    padding-top: 10%;
-    padding-bottom: 4%;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 .quoteb{
     font-size: 26px;
-    padding-top: 1%;
+    padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 14%;
     font-family: "Overpass-semibold";
@@ -116,5 +116,24 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
 }
 
 a:link[class = "nav-header"], a:visited[class = "nav-header"] {
-    color:rgb(213, 224, 226) !important;
+    padding: 25px;
+    text-align: center;
+    display: inline-block;  
+    font-size:2vmin;
+    font-family: "Merriweather";
+    transition: all 0.3s ease;
 }
+
+.nav-bar{
+    background-image: linear-gradient(to right, rgb(0,0,0), rgb(0,0,0));
+    padding-top:1%;
+    display:flex;
+    z-index: 1;
+    width:100%;
+    position:fixed;
+    padding-left: 0%;
+    padding-right: 0%;    
+    font-size: 35px;
+    opacity: 0.5; 
+    filter:(opacity(50));  
+    }
