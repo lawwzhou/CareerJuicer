@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "Merriweather";
     src: url('fonts/Merriweather/Merriweather-Light.ttf');
@@ -10,13 +11,6 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
     font-family: "Overpass-LightItalic";
     src: url('fonts/Overpass/static/Overpass-LightItalic.ttf');
 }
-
-html {
-    height: 300%;
-    scroll-behavior: smooth;
-}
-
-
 html,#thing,#quote,.nav-bar, body{
   background: url(./images/building.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -117,4 +111,11 @@ html,#thing,#quote,.nav-bar, body{
     font-size: 20px;
     color:rgb(235, 227, 160);
 }
-
+.ani .rightbubble,.ani .bubble,.ani .message,.ani .response {
+    opacity: 0;
+    transition: opacity 1.5s, transform 1.5s;
+}
+.ani:hover .rightbubble,.ani:hover .bubble,.ani:hover  .message,.ani:hover  .response{
+    opacity: 1;
+    transform: translateY(-50px); 
+}
