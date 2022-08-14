@@ -60,7 +60,6 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
     font-size: 2px;
     font-family: "Overpass-bolded"; 
     letter-spacing: 5px;
-    -o-border-image: 50%;
 }
 .bill{
     width: 350px;
@@ -76,4 +75,7 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
     font-family: "Overpass-bolded"; 
     letter-spacing: 5px;
     
+}
+a:link[class = "nav-header"], a:visited[class = "nav-header"] {
+    color:black !important;
 }
