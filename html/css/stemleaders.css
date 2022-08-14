@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url('fonts/Merriweather/Merriweather-Light.ttf');
+}
+@font-face {
+font-family: "Overpass";
+src: url('fonts/Overpass/static/Overpass-Medium.ttf');
+}
+@font-face {
+    font-family: "Overpass-LightItalic";
+    src: url('fonts/Overpass/static/Overpass-LightItalic.ttf');
+}
+@font-face {
+    font-family: "Overpass-bolded"; 
+    src: url('fronts/Overpass/static/ExtraBold.ttf')
+}
+
+*.cow, .doggy, .third, .fourth, .people1, .bill, .people2, html, body{
+    margin: 0px !important;
+    padding: 0px !important;
+    border: 0px !important;
+    overflow-x: hidden;
+}
+
+.cow{
+    background-color: rgb(249,251,252,255);
+    width: 100%;
+    height: 100%;
+    position: static;
+}
+
+.doggy{
+    border: 1px solid black;
+  position: static;
+  object-fit: cover;
+  height: 400px;
+  width: 2200px;
+}
+
+.third{
+    margin:0%;  
+    width: 200%;
+    text-align: center;
+    padding-top:1%;
+    font-size: 16px;
+    font-family: "Overpass-bolded"; 
+    letter-spacing: 5px;
+}
+
+.fourth{
+    margin:0%;  
+    width: 200%;
+}
+.people1,.bill{
+    margin:0%;  
+    width: 200px;
+    text-align: center;
+    left: 3px;
+    padding-top: 2%;
+    font-size: 2px;
+    font-family: "Overpass-bolded"; 
+    letter-spacing: 5px;
+    -o-border-image: 50%;
+}
+.bill{
+    width: 350px;
+    border-radius: 75%;
+}
+.people2{
+    margin:0%;  
+    width: 200px;
+    text-align: center;
+    left: 3px;
+    padding-top: 2%;
+    font-size: 16px;
+    font-family: "Overpass-bolded"; 
+    letter-spacing: 5px;
+    
+}
