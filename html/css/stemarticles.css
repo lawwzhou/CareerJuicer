@@ -31,7 +31,7 @@ h3 {
     font-size: 20px;
 }
 .col-1, .col-5, .col-4{
-    border: 2px black solid;
+    border-color: black;
     padding-top: 200px;
     padding-left: 2%;
     padding-right: 2%;
@@ -39,16 +39,24 @@ h3 {
     line-height: normal;
 }
 
+.row {
+    width: 100%;
+}
+
 .borderr {
-    border: 2px black solid;
+    border-color: black;
     color: black;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
+.basic {
+    font-weight: 100;
+}
+
 
 #meow  {
-    border: 2px black solid;
+    border-color: black;
     padding-top: 225px;
     color: white;
     padding-left: 4%;
@@ -79,7 +87,7 @@ h2 {
 }
 
 .nav-bar{
-    background-color: #001B2E;
+    background-color: #325aa5fd;
     padding-top:2%;
     display:flex;
     z-index: 1;
@@ -107,5 +115,10 @@ a:hover[class = "nav-header"] {
   }
 
 .second {
-    padding-top: 0%;
+    padding-top: 4%;
+}
+
+#minecraft {
+    padding-left: 15%;
+    padding-right: 15%;
 }
