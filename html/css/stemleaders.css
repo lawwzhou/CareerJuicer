@@ -15,39 +15,6 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
     src: url('fronts/Overpass/static/ExtraBold.ttf')
 }
 
-.nav-bar{
-    padding-top:1%;
-    display:flex;
-    z-index: 1;
-    width:100%;
-    position:fixed;
-    }
-a:link[class = "nav-header"], a:visited[class = "nav-header"] {
-    color: white;
-    padding: 25px;
-    text-align: center;
-    display: inline-block;
-    font-size:2vmin;
-    font-family: "Merriweather";
-    transition: all 0.3s ease;
-    opacity: 0.8;
-    color:rgb(195, 205, 207);
-}
-a:hover[class = "nav-header"] {
-    transform: scale(1.2);
-    opacity: 1;
-  }
-  .logo {
-    width:77px;
-    height:77px;
-    margin-top: 1px;
-    margin-left: 7%;
-}
-.logo-name {
-    margin-right: auto;
-    margin-left: 1%;
-}
-
 *.cow, .doggy, .third, .fourth, .people1, .bill, .people2, html, body{
     margin: 0px !important;
     padding: 0px !important;
