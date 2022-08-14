@@ -14,12 +14,18 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
     font-family: "Overpass-bolded"; 
     src: url('fronts/Overpass/static/ExtraBold.ttf')
 }
+@font-face {
+    font-family: "Overpass-semibold"; 
+    src: url('fronts/Overpass/static/semibold.ttf')
+}
 
-*.cow, .doggy, .third, .fourth, .people1, .bill, .people2, html, body{
+*.cow, .doggy, .third, .fourth, .people1, .people2, .people3, html, body{
     margin: 0px !important;
     padding: 0px !important;
     border: 0px !important;
     overflow-x: hidden;
+    padding-left: 0%;
+    padding-right: 0%;  
 }
 
 .cow{
@@ -30,41 +36,63 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
 }
 
 .doggy{
-    border: 1px solid black;
   position: static;
   object-fit: cover;
-  height: 400px;
+  height:650px;
   width: 2200px;
 }
 
-.third{
+.third, .list{
     margin:0%;  
     width: 200%;
     text-align: center;
-    padding-top:1%;
-    font-size: 16px;
-    font-family: "Overpass-bolded"; 
+    padding-top: 1%;
     letter-spacing: 5px;
+    font-family: "Overpass-bolded"; 
+    font-weight: bolder;
+    font-size: 74px;
+}
+
+.list2{
+    font-size: 24px;
+    font-family: "Overpass-LightItalic";
+}
+
+.list3{
+    font-size: 150px;
+    padding-top: 1%;
+    font-family: "Overpass-LightItalic";
 }
 
 .fourth{
     margin:0%;  
     width: 200%;
 }
-.people1,.bill{
+.people1{
     margin:0%;  
     width: 200px;
     text-align: center;
     left: 3px;
-    padding-top: 2%;
-    font-size: 2px;
+    padding-top: 1%;
+    font-size: 1px;
     font-family: "Overpass-bolded"; 
     letter-spacing: 5px;
 }
-.bill{
+
+.bill, .Marky, .Stevey{
     width: 350px;
-    border-radius: 75%;
+    border-radius: 85%;
+    padding-top: 10%;
+    padding-bottom: 4%;
 }
+.quoteb{
+    font-size: 26px;
+    padding-top: 1%;
+    padding-left: 15%;
+    padding-right: 14%;
+    font-family: "Overpass-semibold";
+}
+
 .people2{
     margin:0%;  
     width: 200px;
@@ -74,8 +102,19 @@ src: url('fonts/Overpass/static/Overpass-Medium.ttf');
     font-size: 16px;
     font-family: "Overpass-bolded"; 
     letter-spacing: 5px;
-    
 }
+
+.people3{
+    margin:0%;  
+    width: 200px;
+    text-align: center;
+    left: 3px;
+    padding-top: 2%;
+    font-size: 16px;
+    font-family: "Overpass-bolded"; 
+    letter-spacing: 5px;
+}
+
 a:link[class = "nav-header"], a:visited[class = "nav-header"] {
-    color:black !important;
+    color:rgb(213, 224, 226) !important;
 }
